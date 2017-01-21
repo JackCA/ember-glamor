@@ -51,6 +51,15 @@ export default Ember.Component.extend({
 });
 ```
 
+## Speedy mode
+Glamor's [speedy mode](https://github.com/threepointone/glamor#speedy-mode) will be automatically used in the `production` environment. You can also override this setting by specifying:
+```
+glamor: {
+  isSpeedy: true
+}
+```
+
+in your environment.js file.
 
 ## Developing
 
